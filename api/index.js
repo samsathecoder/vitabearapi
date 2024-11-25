@@ -21,9 +21,6 @@ app.use(bodyParser.json());
 
 
 // Initialize Firebase Admin SDK
-admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
-});
 
 // Middleware
 app.use(cors());
