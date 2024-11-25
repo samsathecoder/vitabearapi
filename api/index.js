@@ -358,5 +358,5 @@ app.post('/api/login', async (req, res) => {
 });
 
 module.exports = (req, res) => {
-    app(req, res); // Express.js ile gelen isteği burada işliyoruz
-  };
+    res.status(200).send('Hello, world!');
+};
