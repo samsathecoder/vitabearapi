@@ -2,7 +2,7 @@
   "name": "vitabearapi",
   "version": "1.0.0",
   "description": "vitabear api connection for panel",
-  "main": "get.js",
+  "main": "./api/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
